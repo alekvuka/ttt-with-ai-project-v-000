@@ -23,13 +23,13 @@ class Game
 
     board = Board.new
 
-    if type_of_game == "0"
+    if type_of_game == 0
       game = self.new(Players::Computer.new('X'), Players::Computer.new('O'), board)
-    elsif type_of_game == "1" && first_player == "Computer"
+    elsif type_of_game == 1 && first_player == "Computer"
       game = self.new(Players::Computer.new('X'), Players::Human.new('O'), board)
-    elsif  type_of_game == "1" && first_player == "Human"
+    elsif  type_of_game == 1 && first_player == "Human"
       game = self.new(Players::Human.new('X'), Players::Computer.new('O'), board)
-    else type_of_game == "2"
+    else type_of_game == 2
       game = self.new(Players::Human.new('X'), Players::Human.new('O'), board)
     end
     game
