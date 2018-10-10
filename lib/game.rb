@@ -123,6 +123,7 @@ class Game
       @board.display
       puts "Cat's Game!"
     elsif winner == "X"
+      @board.display
       puts "Congratulations X!"
     elsif winner == "O"
       puts "Congratulations O!"
