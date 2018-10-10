@@ -16,8 +16,9 @@ class Game
     puts "Welcome to Tic-Tac-Toe!!"
     puts "What kind of game would you like to play (0, 1, or 2)?"
     type_of_game = gets
-    puts "Who would like to go first and be 'X', Human or Computer?"
-    first_player = gets
+    if type_of_game =! 0
+      puts "Who would like to go first and be 'X', Human or Computer?"
+      first_player = gets
 
     board = Board.new
 
@@ -129,6 +130,7 @@ class Game
       @board.display
       puts "Congratulations O!"
     else
+      @board.display
       puts "Thanks for playing"
     end
   end
