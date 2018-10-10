@@ -12,7 +12,7 @@ class Game
   end
 
   def self.start
-    
+
     puts "Welcome to Tic-Tac-Toe!!"
     puts "What kind of game would you like to play (0, 1, or 2)?"
     type_of_game = gets
@@ -30,6 +30,7 @@ class Game
     else type_of_game == "2"
       game = self.new(Players::Human.new('X'), Players::Human.new('O'), board)
     end
+    game
   end
 
 
