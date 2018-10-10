@@ -11,7 +11,7 @@ class Game
     @board = board
   end
 
-  def self.start
+  def start
 
     puts "Welcome to Tic-Tac-Toe!!"
     puts "What kind of game would you like to play (0, 1, or 2)?"
