@@ -1,5 +1,5 @@
 require 'pry'
-require 'spec_helper'
+#require 'spec_helper'
 
 class Game
 
@@ -31,7 +31,7 @@ class Game
       game = self.new(Players::Human.new('X'), Players::Human.new('O'), board)
     end
     game
-    
+
   end
 
 
