@@ -120,6 +120,7 @@ class Game
     end
 
     if draw? == true
+      @board.display
       puts "Cat's Game!"
     elsif winner == "X"
       puts "Congratulations X!"
