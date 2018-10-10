@@ -19,6 +19,7 @@ class Game
     if type_of_game =! 0
       puts "Who would like to go first and be 'X', Human or Computer?"
       first_player = gets
+    end 
 
     board = Board.new
 
