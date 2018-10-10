@@ -3,4 +3,4 @@
 require_relative '../config/environment'
 
 game = Game.start
-game.
+game.play
