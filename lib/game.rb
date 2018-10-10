@@ -126,6 +126,7 @@ class Game
       @board.display
       puts "Congratulations X!"
     elsif winner == "O"
+      @board.display
       puts "Congratulations O!"
     else
       puts "Thanks for playing"
