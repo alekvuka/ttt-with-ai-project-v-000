@@ -16,7 +16,6 @@ class Game
     puts "Welcome to Tic-Tac-Toe!!"
     puts "What kind of game would you like to play (0, 1, or 2)?"
     type_of_game = gets
-    binding.pry
     puts "Who would like to go first and be 'X', Human or Computer?"
     first_player = gets
 
